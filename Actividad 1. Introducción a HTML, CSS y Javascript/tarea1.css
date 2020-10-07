@@ -1,0 +1,68 @@
+body{
+    background-color: lightgray;
+}
+
+header{
+    background-color: mediumspringgreen;
+    min-height: 100px;
+}
+
+footer{
+    min-height: 100px;
+}
+
+#main-content{
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1%;
+}
+
+#main-content div{
+    width: 48%;
+    padding: 10px;
+}
+
+.main-header{
+    color: #060650;
+    padding: 5px ;
+    text-align: center;
+}
+
+.list1{
+    background-color: red;
+    color: red;
+    
+}
+
+.lista-roja{
+    margin-top: -30px;
+}
+
+.orangebox{
+    background-color: orange;
+    color: orange;
+
+}
+
+.footerblack{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 1%;
+}
+
+.footergrey{
+    background-color: grey;
+    color: blanchedalmond;
+    padding: 1%;
+}
+
+.hsss{
+    margin: 0px;
+    color: lightgray;
+}
+
+.list2{
+    margin-top: 0px;
+    margin-left: -20px;
+}
