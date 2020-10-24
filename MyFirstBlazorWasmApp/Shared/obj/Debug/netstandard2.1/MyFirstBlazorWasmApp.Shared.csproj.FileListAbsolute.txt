@@ -1,0 +1,9 @@
+C:\Users\DELL\20124171\myfirstblazorwasmapp\Shared\bin\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.deps.json
+C:\Users\DELL\20124171\myfirstblazorwasmapp\Shared\bin\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.dll
+C:\Users\DELL\20124171\myfirstblazorwasmapp\Shared\bin\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.pdb
+C:\Users\DELL\20124171\myfirstblazorwasmapp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.csprojAssemblyReference.cache
+C:\Users\DELL\20124171\myfirstblazorwasmapp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.AssemblyInfoInputs.cache
+C:\Users\DELL\20124171\myfirstblazorwasmapp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.AssemblyInfo.cs
+C:\Users\DELL\20124171\myfirstblazorwasmapp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\DELL\20124171\myfirstblazorwasmapp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.dll
+C:\Users\DELL\20124171\myfirstblazorwasmapp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorWasmApp.Shared.pdb

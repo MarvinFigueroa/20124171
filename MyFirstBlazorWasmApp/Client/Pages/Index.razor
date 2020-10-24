@@ -1,0 +1,35 @@
+﻿@page "/"
+@page "/index"
+@layout PublicLayout
+@using MyFirstBlazorWasmApp.Client.Shared.Components
+<Person
+    Names = "@People"
+    GreetingMessage = "Welcome"   
+>
+   <Empty>
+       <h3 class="text-danger">
+           No hay personas
+       </h3>
+   </Empty>
+
+   <LotPeople>
+       <h3 class="text-succes">
+           Tienes muchos conocidos
+       </h3>
+   </LotPeople>
+</Person>
+
+<button class="btn btn-dark btn-lg" @onclick="AddPerson">
+    Añadir persona
+</button>
+
+@code{
+
+    private List<string> People = new List<string>(){
+        "Marvin", "Jair", "Figueroa"    
+    };
+
+    private void AddPerson(){
+        People.Add("Yadira");
+    }
+}
