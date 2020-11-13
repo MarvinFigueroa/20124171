@@ -6,6 +6,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
+using DogKeepers.Server.Interfaces.Services;
+using DogKeepers.Server.Services;
+using DogKeepers.Server.Interfaces.Repositories;
+using DogKeepers.Server.Repositories;
 
 namespace DogKeepers.Server
 {
@@ -22,9 +26,10 @@ namespace DogKeepers.Server
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddScoped<IDogService, DogService>();
+            services.AddScoped<IDogRepository, DogRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

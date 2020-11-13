@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Server\\DogKeepers.Server.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\server\\DogKeepers.Server.csproj": {}
   },
   "projects": {
     "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\DogKeepers.Client.csproj": {
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Server\\DogKeepers.Server.csproj": {
+    "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\server\\DogKeepers.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Server\\DogKeepers.Server.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\server\\DogKeepers.Server.csproj",
         "projectName": "DogKeepers.Server",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Server\\DogKeepers.Server.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\server\\DogKeepers.Server.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Server\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -121,9 +121,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
               "version": "[3.2.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.22, )"
             }
           },
           "imports": [
