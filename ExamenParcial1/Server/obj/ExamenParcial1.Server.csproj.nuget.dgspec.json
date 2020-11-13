@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\ExamenParcial1\\Server\\ExamenParcial1.Server.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\ExamenParcial1\\server\\ExamenParcial1.Server.csproj": {}
   },
   "projects": {
     "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\ExamenParcial1\\Client\\ExamenParcial1.Client.csproj": {
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\ExamenParcial1\\Server\\ExamenParcial1.Server.csproj": {
+    "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\ExamenParcial1\\server\\ExamenParcial1.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\ExamenParcial1\\Server\\ExamenParcial1.Server.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\ExamenParcial1\\server\\ExamenParcial1.Server.csproj",
         "projectName": "ExamenParcial1.Server",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\ExamenParcial1\\Server\\ExamenParcial1.Server.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\ExamenParcial1\\server\\ExamenParcial1.Server.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\ExamenParcial1\\Server\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\ExamenParcial1\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

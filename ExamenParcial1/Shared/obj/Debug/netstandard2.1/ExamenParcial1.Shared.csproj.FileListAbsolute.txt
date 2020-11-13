@@ -1,0 +1,9 @@
+C:\Users\DELL\Desktop\ProgramacionWeb\ExamenParcial1\Shared\bin\Debug\netstandard2.1\ExamenParcial1.Shared.deps.json
+C:\Users\DELL\Desktop\ProgramacionWeb\ExamenParcial1\Shared\bin\Debug\netstandard2.1\ExamenParcial1.Shared.dll
+C:\Users\DELL\Desktop\ProgramacionWeb\ExamenParcial1\Shared\bin\Debug\netstandard2.1\ExamenParcial1.Shared.pdb
+C:\Users\DELL\Desktop\ProgramacionWeb\ExamenParcial1\Shared\obj\Debug\netstandard2.1\ExamenParcial1.Shared.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\ProgramacionWeb\ExamenParcial1\Shared\obj\Debug\netstandard2.1\ExamenParcial1.Shared.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\ProgramacionWeb\ExamenParcial1\Shared\obj\Debug\netstandard2.1\ExamenParcial1.Shared.AssemblyInfo.cs
+C:\Users\DELL\Desktop\ProgramacionWeb\ExamenParcial1\Shared\obj\Debug\netstandard2.1\ExamenParcial1.Shared.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\ProgramacionWeb\ExamenParcial1\Shared\obj\Debug\netstandard2.1\ExamenParcial1.Shared.dll
+C:\Users\DELL\Desktop\ProgramacionWeb\ExamenParcial1\Shared\obj\Debug\netstandard2.1\ExamenParcial1.Shared.pdb
