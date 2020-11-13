@@ -7,7 +7,7 @@ namespace DogKeepers.Server.Interfaces.Services
     public interface IDogService
     {
         
-        Task<List<Dog>> GetList();
+        Task<List<Dog>> GetList(int random);
 
     }
 }

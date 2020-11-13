@@ -18,10 +18,10 @@ namespace DogKeepers.Server.Controllers
             this.dogService = dogService;
         }
 
-        [HttpGet]
-        public async Task<IActionResult>  Get()
+        [HttpGet("GetList")]
+        public async Task<IActionResult>  GetList(int random = 0)
         {
-            var dogs =await dogService.GetList();
+            var dogs =await dogService.GetList(random);
             return Ok(dogs);
         }
 

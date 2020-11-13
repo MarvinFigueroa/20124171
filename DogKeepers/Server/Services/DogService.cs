@@ -13,9 +13,9 @@ namespace DogKeepers.Server.Services
         {
             this.dogRepository = dogRepository;
         }
-        public async Task<List<Dog>> GetList()
+        public async Task<List<Dog>> GetList(int random)
         {
-            var dogs = await dogRepository.GetList(3);
+            var dogs = await dogRepository.GetList(random);
 
             return dogs;
         }

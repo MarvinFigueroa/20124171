@@ -366,6 +366,10 @@ C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\Client\obj\Debug\netstandard2.1
 C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\0xIt84P6b7yuNXp0uNqi4pprKMXZ12eKk_tK-QuhbKY=.hash
 C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\Client\obj\Debug\netstandard2.1\RazorDeclaration\Components\Loading\Loading.razor.g.cs
 C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\Client\obj\Debug\netstandard2.1\Razor\Components\Loading\Loading.razor.g.cs
-C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\6YsVHQHqcLVc1HvvrtuH61eJztHGGK8KDe-UJmFxv6E=.hash
-C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\6teqDncO8FlWwzQmJqxz_LUJT3nQpSdENqWW6V17yb8=.hash
-C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\YXeXz93zI9H3LOw3LXufgBdD5wwmVLEro8ZqEEoenBQ=.hash
+C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Dogs\Dogs.razor.g.cs
+C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\Client\obj\Debug\netstandard2.1\Razor\Pages\Dogs\Dogs.razor.g.cs
+C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\Client\obj\Debug\netstandard2.1\RazorDeclaration\Components\DogCard\DogCard.razor.g.cs
+C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\Client\obj\Debug\netstandard2.1\Razor\Components\DogCard\DogCard.razor.g.cs
+C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\5X_UDL231f3hHYDaL8W2YKkcB8bEzr0Pz4TwtSaimfc=.hash
+C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\R1XLjFmoQ67FaVXNAwWMzSNIgySyrt8rsY6bJVXSJW0=.hash
+C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\NDWdZh223_7GbzvTEkvbp5QftluU9dliLPzQ6wrWvfI=.hash

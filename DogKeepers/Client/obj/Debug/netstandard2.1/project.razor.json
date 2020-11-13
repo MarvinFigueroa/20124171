@@ -8,6 +8,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 1342278582,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Pages.Dogs.Dogs",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Dogs"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Pages.Dogs.Dogs"
+        }
+      },
+      {
+        "HashCode": -492038949,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Pages.Dogs.Dogs",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Pages.Dogs.Dogs"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Pages.Dogs.Dogs",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1753364630,
         "Kind": "Components.Component",
         "Name": "DogKeepers.Client.Pages.Index.Index",
@@ -136,6 +169,59 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "DogKeepers.Client.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1015307293,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.DogCard.DogCard",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogCard"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Dog",
+            "TypeName": "DogKeepers.Shared.DTOs.DogDto",
+            "Metadata": {
+              "Common.PropertyName": "Dog"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.DogCard.DogCard"
+        }
+      },
+      {
+        "HashCode": -563884599,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.DogCard.DogCard",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Components.DogCard.DogCard"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Dog",
+            "TypeName": "DogKeepers.Shared.DTOs.DogDto",
+            "Metadata": {
+              "Common.PropertyName": "Dog"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.DogCard.DogCard",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -11847,6 +11933,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\Components\\DogCard\\DogCard.razor",
+      "TargetPath": "Components\\DogCard\\DogCard.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\Components\\Loading\\Loading.razor",
       "TargetPath": "Components\\Loading\\Loading.razor",
       "FileKind": "component"
@@ -11874,6 +11965,11 @@
     {
       "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\Layouts\\MainLayout.razor",
       "TargetPath": "Layouts\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\Pages\\Dogs\\Dogs.razor",
+      "TargetPath": "Pages\\Dogs\\Dogs.razor",
       "FileKind": "component"
     }
   ],

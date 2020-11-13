@@ -1,0 +1,30 @@
+@page "/dogs"
+@using DogKeepers.Client.Components.DogCard
+
+<div class="cointainer-fluid dogs-page p-5">
+    <div id="section-title" class="row p-2 mb-4">
+        <div class="col-12">
+            <h2>
+                Mascotas en adopción
+            </h2>
+            <span class="text-muted">
+                No dejes pasar la oportunidad de hacer feliz a un perrito
+            </span>
+        </div>
+    </div>
+    <div></div>
+    <div>
+        <Loading IsLoading="@IsLoadingDogsList" >
+            @if (Dogslist.Count()==0)
+            {
+                <h1>
+                    Es Cero
+                </h1>
+            }else{
+                <h1>
+                    No es Cero
+                </h1>
+            }
+        </Loading>
+    </div>
+</div>

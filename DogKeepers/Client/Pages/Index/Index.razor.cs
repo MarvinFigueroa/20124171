@@ -21,7 +21,7 @@ namespace DogKeepers.Client.Pages.Index
         }
 
         private async Task LoadSuggestions(){
-            DogList = await httpClient.GetFromJsonAsync<List<DogDto>>("/api/dog");
+            DogList = await httpClient.GetFromJsonAsync<List<DogDto>>("/api/dog/GetList?random=3");
 
             IsLoadingDogSuggestions = false;
         }
