@@ -228,3 +228,5 @@ C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\server\bin\Debug\netcoreapp3.1\
 C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\server\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\server\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\server\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\server\bin\Debug\netcoreapp3.1\Radzen.Blazor.dll
+C:\Users\DELL\Desktop\ProgramacionWeb\DogKeepers\server\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll

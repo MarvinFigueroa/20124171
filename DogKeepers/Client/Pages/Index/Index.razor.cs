@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
+using DogKeepers.Shared.ApiResponses;
 using DogKeepers.Shared.DTOs;
 using Microsoft.AspNetCore.Components;
 
@@ -21,7 +22,9 @@ namespace DogKeepers.Client.Pages.Index
         }
 
         private async Task LoadSuggestions(){
-            DogList = await httpClient.GetFromJsonAsync<List<DogDto>>("/api/dog/GetList?random=3");
+            var response = await httpClient.GetFromJsonAsync<ApiResponse<List<DogDto>>>("/api/dog/GetList?random=3");
+
+            DogList = response.Data;
 
             IsLoadingDogSuggestions = false;
         }

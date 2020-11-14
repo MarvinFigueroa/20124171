@@ -30,6 +30,11 @@ namespace DogKeepers.Server
             services.AddRazorPages();
             services.AddScoped<IDogService, DogService>();
             services.AddScoped<IDogRepository, DogRepository>();
+            services.AddSingleton<IBaseRepository, BaseRepository>();
+            services.AddScoped<ISizeService, SizeService>();
+            services.AddScoped<ISizeRepository, SizeRepository>();
+            services.AddScoped<IRaceService, RaceService>();
+            services.AddScoped<IRaceRepository, RaceRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

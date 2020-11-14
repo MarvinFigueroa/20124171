@@ -1,8 +1,9 @@
-using System.Collections.Generic;
 using System.Threading.Tasks;
 using DogKeepers.Server.Entities;
 using DogKeepers.Server.Interfaces.Repositories;
 using DogKeepers.Server.Interfaces.Services;
+using DogKeepers.Server.Utils;
+using DogKeepers.Shared.QueryFilters;
 
 namespace DogKeepers.Server.Services
 {
@@ -13,11 +14,21 @@ namespace DogKeepers.Server.Services
         {
             this.dogRepository = dogRepository;
         }
-        public async Task<List<Dog>> GetList(int random)
+        public async Task<PagedList<Dog>> GetList(DogsQueryFilter model)
         {
-            var dogs = await dogRepository.GetList(random);
 
-            return dogs;
+            model.PageNumber = 1;
+            model.PageSize = 10;
+
+            var dogs = await dogRepository.GetList(model);
+            var response = PagedList<Dog>.Create(
+                dogs.Item2,
+                (int )model.PageNumber,
+                (int) model.PageSize,
+                dogs.Item1
+            );
+
+            return response;
         }
     }
 }

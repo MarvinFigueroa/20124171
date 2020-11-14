@@ -1,12 +1,14 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using DogKeepers.Server.Entities;
+using DogKeepers.Shared.QueryFilters;
 
 namespace DogKeepers.Server.Interfaces.Repositories
 {
     public interface IDogRepository{
 
-        Task<List<Dog>> GetList(int random);
+        Task<Tuple<int, List<Dog>>> GetList(DogsQueryFilter model);
         
     }
 }

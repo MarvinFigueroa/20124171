@@ -1,5 +1,7 @@
 @page "/dogs"
 @using DogKeepers.Client.Components.DogCard
+@using DogKeepers.Client.Components.Pagination
+@using Shared.DTOs
 
 <div class="cointainer-fluid dogs-page p-5">
     <div id="section-title" class="row p-2 mb-4">
@@ -12,19 +14,73 @@
             </span>
         </div>
     </div>
-    <div></div>
-    <div>
+    <div class="row mb-5">
+        <div class="col-12">
+            <nav class="navbar navbar-light bn-ligh p-3">
+                <div class="input-group input-group-lg">
+                    <RadzenTextBox
+                        Placeholder = "Name"
+                        class="form-control form-control-lg"
+                        @bind-Value="Filters.Name"
+                    />
+                    <RadzenDropDown
+                        AllowClear="true"
+                        Data="Sizes"
+                        TValue="int"
+                        ValueProperty="Id"
+                        TextProperty="Name"
+                        Placeholder="Talla"
+                        Name="SizeId"
+                        class="form-control form-control-lg"
+                        @bind-Value="Filters.SizeId"
+                    />
+                    <RadzenDropDown
+                        AllowClear="true"
+                        Data="Races"
+                        TValue="int"
+                        ValueProperty="Id"
+                        TextProperty="Name"
+                        Placeholder="Raza"
+                        Name="SizeId"
+                        class="form-control form-control-lg"
+                        AllowFiltering="true"
+                        FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive"
+                        FilterOperator="StringFilterOperator.Contains"
+                        @bind-Value="Filters.RaceId"
+                    />
+                    <div class="input-group-prepend">
+                        <button class="btn btn-primary btn-lg" @onclick="@OnSearch" >
+                            Buscar
+                        </button>
+                    </div>
+                </div>
+                    <div class="text-center col-12 p-3">
+                        <span class="text-muted">
+                            Se encontraron @TotalDogs perritos
+                        </span>
+                    </div>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
         <Loading IsLoading="@IsLoadingDogsList" >
-            @if (Dogslist.Count()==0)
+            @if (Dogslist?.Count() !=0)
             {
-                <h1>
-                    Es Cero
-                </h1>
-            }else{
-                <h1>
-                    No es Cero
-                </h1>
+                <Pagination PaginationData = "@PaginationData" SelectedPage="@OnSelectedPage" />
+                <div class = "row">
+                    @foreach (DogDto dog in Dogslist)
+                    {
+                        <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-3">
+                            <DogCard Dog="@dog" />
+                        </div>
+                    }
+                </div>
+                <Pagination PaginationData = "@PaginationData" SelectedPage="@OnSelectedPage" />
             }
         </Loading>
+        </div>
     </div>
+    <div>
+    </div> 
 </div>

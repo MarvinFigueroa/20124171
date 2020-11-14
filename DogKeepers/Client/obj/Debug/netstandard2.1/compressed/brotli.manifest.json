@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\5X_UDL231f3hHYDaL8W2YKkcB8bEzr0Pz4TwtSaimfc=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\fOZCyXdLqw0JCinmbIev15X8glfZwO8-tDGFhLwpSK4=.hash",
       "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\DogKeepers.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/DogKeepers.Client.dll.br"
     },
@@ -161,14 +161,9 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\bSgsT2x5xMvs8mara5wU_EJwcyHa9GVMU85HwhWcdWM=.hash",
-      "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.Web.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\m7Q_cF5-ji3OMfdGlCuE8pQ-iM_kxNHLq-IEWVvIaOg=.hash",
-      "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.Forms.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Forms.dll.br"
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Yzb5CwUGmTlpNKrtsf7WmDDY17y3ZJe8CXtKjuycX_A=.hash",
+      "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Radzen.Blazor.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Radzen.Blazor.dll.br"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\tmnkCmP9OzLUkpQ3LP7PRosi7gt5pyfEZCM6aqAokFI=.hash",
@@ -181,6 +176,41 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.DataAnnotations.dll.br"
     },
     {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ubyINHXDmWOAugBDEb8CCz_uV68eordXiYDxpUeRBvg=.hash",
+      "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.CSharp.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.CSharp.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\oeXdNP1uzF9KZm0JpacVa7owHnjSqvaEeNHajluA_rQ=.hash",
+      "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Linq.Dynamic.Core.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Linq.Dynamic.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\yTznKFXYjwtGYUGUdxYEw8gA1A_IWlMYOncOmAAyJas=.hash",
+      "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Reflection.Emit.ILGeneration.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.Emit.ILGeneration.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\4A297N6Xf0UZNMTrY_4COe43Hmcrtxb-eTiqTJ5M6wA=.hash",
+      "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Reflection.Emit.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.Emit.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash",
+      "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\bSgsT2x5xMvs8mara5wU_EJwcyHa9GVMU85HwhWcdWM=.hash",
+      "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.Web.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\m7Q_cF5-ji3OMfdGlCuE8pQ-iM_kxNHLq-IEWVvIaOg=.hash",
+      "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.Forms.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Forms.dll.br"
+    },
+    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=.hash",
       "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.dll.br"
@@ -191,7 +221,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Pyc16zwbgnkd7YFv42QVKaGhblwwTND-Tw_KIi8Met0=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\xUTA3l6RD6ZorWmHrbms06rcoTn5yogfUFWI3rvE6Ro=.hash",
       "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\DogKeepers.Shared.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/DogKeepers.Shared.dll.br"
     },
@@ -256,22 +286,22 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash",
-      "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.br"
-    },
-    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash",
       "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.WebAssembly.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\R1XLjFmoQ67FaVXNAwWMzSNIgySyrt8rsY6bJVXSJW0=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Jrs-yibjAgsKDYXa5BZvLjwpGLlLGzKKt4EDmRo9gWc=.hash",
       "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\DogKeepers.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/DogKeepers.Client.pdb.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\0xIt84P6b7yuNXp0uNqi4pprKMXZ12eKk_tK-QuhbKY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\zOBZ_bv44N0h0EaRYZhGqngeYcBonLjpA36C_TrA-lA=.hash",
+      "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Linq.Dynamic.Core.pdb",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Linq.Dynamic.Core.pdb.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\gosC-3_sGyrAE22dMIV97NpzCVe9vjpLX6PL2j2rm8Y=.hash",
       "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\DogKeepers.Shared.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/DogKeepers.Shared.pdb.br"
     },
@@ -296,7 +326,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\NDWdZh223_7GbzvTEkvbp5QftluU9dliLPzQ6wrWvfI=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\WPvVC_UrLESh3rF1TkUwf2LWRIIXnWSpbk_u01xeQnY=.hash",
       "Source": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }
