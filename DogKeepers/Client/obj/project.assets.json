@@ -2525,11 +2525,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\DogKeepers.Client.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\DogKeepers.Client.csproj",
       "projectName": "DogKeepers.Client",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\DogKeepers.Client.csproj",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\DogKeepers.Client.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2545,8 +2545,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Shared\\DogKeepers.Shared.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Shared\\DogKeepers.Shared.csproj"
+            "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Shared\\DogKeepers.Shared.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Shared\\DogKeepers.Shared.csproj"
             }
           }
         }

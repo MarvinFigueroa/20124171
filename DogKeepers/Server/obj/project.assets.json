@@ -6604,11 +6604,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\server\\DogKeepers.Server.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Server\\DogKeepers.Server.csproj",
       "projectName": "DogKeepers.Server",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\server\\DogKeepers.Server.csproj",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Server\\DogKeepers.Server.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\server\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6624,11 +6624,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\DogKeepers.Client.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\DogKeepers.Client.csproj"
+            "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\DogKeepers.Client.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\DogKeepers.Client.csproj"
             },
-            "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Shared\\DogKeepers.Shared.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Shared\\DogKeepers.Shared.csproj"
+            "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Shared\\DogKeepers.Shared.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Shared\\DogKeepers.Shared.csproj"
             }
           }
         }

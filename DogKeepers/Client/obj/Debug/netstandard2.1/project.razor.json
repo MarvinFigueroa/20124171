@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\DogKeepers.Client.csproj",
+  "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\DogKeepers.Client.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "3.0",
@@ -401,6 +401,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "DogKeepers.Client.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1081869295,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Pages.Cares.Cares",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Cares"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Pages.Cares.Cares"
+        }
+      },
+      {
+        "HashCode": -1210037408,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Pages.Cares.Cares",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Pages.Cares.Cares"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Pages.Cares.Cares",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -49397,58 +49430,63 @@
   "RootNamespace": "DogKeepers.Client",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\Pages\\Index\\Index.razor",
-      "TargetPath": "Pages\\Index\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\Components\\Pagination\\Pagination.razor",
-      "TargetPath": "Components\\Pagination\\Pagination.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\Components\\DogCard\\DogCard.razor",
-      "TargetPath": "Components\\DogCard\\DogCard.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\Components\\Loading\\Loading.razor",
-      "TargetPath": "Components\\Loading\\Loading.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\Components\\NavMenu\\NavMenu.razor",
-      "TargetPath": "Components\\NavMenu\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\_Imports.razor",
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\App.razor",
-      "TargetPath": "App.razor",
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\Layouts\\MainLayout.razor",
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\Components\\Pagination\\Pagination.razor",
+      "TargetPath": "Components\\Pagination\\Pagination.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\Pages\\Index\\Index.razor",
+      "TargetPath": "Pages\\Index\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\Pages\\FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\Components\\DogCard\\DogCard.razor",
+      "TargetPath": "Components\\DogCard\\DogCard.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\Components\\NavMenu\\NavMenu.razor",
+      "TargetPath": "Components\\NavMenu\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\Layouts\\MainLayout.razor",
       "TargetPath": "Layouts\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Client\\Pages\\Dogs\\Dogs.razor",
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\Pages\\Cares\\Cares.razor",
+      "TargetPath": "Pages\\Cares\\Cares.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\Pages\\Dogs\\Dogs.razor",
       "TargetPath": "Pages\\Dogs\\Dogs.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\Components\\Loading\\Loading.razor",
+      "TargetPath": "Components\\Loading\\Loading.razor",
       "FileKind": "component"
     }
   ],

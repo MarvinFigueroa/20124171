@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Server\\DogKeepers.Server.csproj",
+  "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Server\\DogKeepers.Server.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -52321,12 +52321,12 @@
   "RootNamespace": "DogKeepers.Server",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Server\\Pages\\Error.cshtml",
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Server\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Server\\Pages\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Server\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }

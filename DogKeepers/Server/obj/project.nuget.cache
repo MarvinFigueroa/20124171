@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4weL0bo8rhgz+/cS6+dKJ07YcRkzo0HYNVBFJuKgpQOEet9fh2dRHd/UXXOKTAgswhMpXASwLXGI3C1wb4ZT6A==",
+  "dgSpecHash": "bsbKVdB5IyL67boaYOyeB0JaqDmaYlycnNqObHPt4bW8lZJCaDrIzQV8G8OLD78ngZeGCBUnrd7hQDPS4lS9sw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\server\\DogKeepers.Server.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Server\\DogKeepers.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",

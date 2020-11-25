@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Shared\\DogKeepers.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Shared\\DogKeepers.Shared.csproj",
       "projectName": "DogKeepers.Shared",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Shared\\DogKeepers.Shared.csproj",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Shared\\DogKeepers.Shared.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\ProgramacionWeb\\DogKeepers\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
