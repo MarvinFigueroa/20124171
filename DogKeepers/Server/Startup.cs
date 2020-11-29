@@ -40,6 +40,10 @@ namespace DogKeepers.Server
                 options =>
                 Configuration.GetSection("ConnectionStrings").Bind(options)
             );
+            services.Configure<PaginationOption>(
+                options =>
+                Configuration.GetSection("Pagination").Bind(options)
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
