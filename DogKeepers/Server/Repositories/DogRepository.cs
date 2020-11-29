@@ -4,7 +4,9 @@ using System.Threading.Tasks;
 using Dapper;
 using DogKeepers.Server.Entities;
 using DogKeepers.Server.Interfaces.Repositories;
+using DogKeepers.Server.Options;
 using DogKeepers.Shared.QueryFilters;
+using Microsoft.Extensions.Options;
 using MySql.Data.MySqlClient;
 
 namespace DogKeepers.Server.Repositories
@@ -13,10 +15,12 @@ namespace DogKeepers.Server.Repositories
     {
         
         private readonly IBaseRepository baseRepository;
+        private readonly string connectionString;
 
-        public DogRepository(IBaseRepository baseRepository)
+        public DogRepository(IBaseRepository baseRepository, IOptions<ConnectionStringsOptions> connectionString)
         {
             this.baseRepository = baseRepository;
+            this.connectionString = connectionString.Value.Production;
         }
         public async Task<Tuple<int, List<Dog>>> GetList(DogsQueryFilter model)
         {
@@ -69,7 +73,7 @@ namespace DogKeepers.Server.Repositories
             var count = await baseRepository.Count(sqlCountCommand);
 
             if(count > 0){
-                using(var connection = new MySqlConnection("Server=127.0.0.1;Database=dogkeepers;User Id=root")){
+                using(var connection = new MySqlConnection(connectionString)){
                     var sqlResponse = await connection.QueryAsync<Dog, Race, Size, Dog>(
                         sqlCommand,
                         (dg, ra, si) => {
