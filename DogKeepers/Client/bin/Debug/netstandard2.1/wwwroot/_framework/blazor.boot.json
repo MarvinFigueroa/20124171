@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "DogKeepers.Client.dll": "sha256-+M27ZVdB0kgnHnKy18HH81+CwaKq6999oJXAdt8weIA=",
+      "DogKeepers.Client.dll": "sha256-ZXLhrR\/T2fqkpRAj3sLsdudOeAKdAAXa9AH+SsR17TU=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -66,7 +66,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "DogKeepers.Client.pdb": "sha256-vXpYhc1thikkm6ooZvxcw04tHKupzHOB\/PWqdCt5JKo=",
+      "DogKeepers.Client.pdb": "sha256-dUqmoY2LoHjPmRvsQw9efELrbQFizX787R7QKImDcXc=",
       "System.Linq.Dynamic.Core.pdb": "sha256-zOBZ+bv44N0h0EaRYZhGqngeYcBonLjpA36C+TrA\/lA=",
       "DogKeepers.Shared.pdb": "sha256-agrJuLE09zZDgtLNPxvRg7jOnmUT2eYJgYkt4r1YtgI="
     },

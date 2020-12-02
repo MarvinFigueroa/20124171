@@ -10,5 +10,7 @@ namespace DogKeepers.Server.Interfaces.Services
         
         Task<PagedList<Dog>> GetList(DogsQueryFilter model);
 
+        Task<Dog> GetById(int id);
+
     }
 }

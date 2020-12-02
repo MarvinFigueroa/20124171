@@ -45,5 +45,12 @@ namespace DogKeepers.Server.Controllers
             return Ok(apiResponse);
         }
 
+        [HttpGet("GetById")]
+        public async Task<IActionResult> GetById(int id){
+            var response = await dogService.GetById(id);
+
+            return Ok(response);
+        }
+
     }
 }

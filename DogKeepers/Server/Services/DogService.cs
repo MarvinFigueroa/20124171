@@ -34,5 +34,11 @@ namespace DogKeepers.Server.Services
 
             return response;
         }
+
+        public async Task<Dog> GetById(int id){
+            var dog = await dogRepository.GetById(id);
+
+            return dog;
+        }
     }
 }

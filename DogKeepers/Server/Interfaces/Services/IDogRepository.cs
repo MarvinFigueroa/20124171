@@ -9,6 +9,7 @@ namespace DogKeepers.Server.Interfaces.Repositories
     public interface IDogRepository{
 
         Task<Tuple<int, List<Dog>>> GetList(DogsQueryFilter model);
+        Task<Dog> GetById(int id);
         
     }
 }

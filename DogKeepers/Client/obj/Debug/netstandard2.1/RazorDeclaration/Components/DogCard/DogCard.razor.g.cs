@@ -98,6 +98,13 @@ using Radzen.Blazor;
 #line hidden
 #nullable disable
 #nullable restore
+#line 13 "C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\_Imports.razor"
+using DogKeepers.Client.Components.SectionPage;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\Components\DogCard\DogCard.razor"
 using Shared.DTOs;
 

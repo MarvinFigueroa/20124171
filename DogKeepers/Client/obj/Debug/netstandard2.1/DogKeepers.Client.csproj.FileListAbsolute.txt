@@ -821,6 +821,10 @@ C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\DogKeepers.Client.pdb
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Cares\Cares.razor.g.cs
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\Razor\Pages\Cares\Cares.razor.g.cs
-C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\_M27ZVdB0kgnHnKy18HH81_CwaKq6999oJXAdt8weIA=.hash
-C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\vXpYhc1thikkm6ooZvxcw04tHKupzHOB-PWqdCt5JKo=.hash
-C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\CAGnNy-cY5bu4L42LKkT3AIOXwhyzf5DQpQ7y5QLBrk=.hash
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Dog\Dog.razor.g.cs
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\Razor\Pages\Dog\Dog.razor.g.cs
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\RazorDeclaration\Components\SectionPage\SectionPage.razor.g.cs
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\Razor\Components\SectionPage\SectionPage.razor.g.cs
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\ZXLhrR-T2fqkpRAj3sLsdudOeAKdAAXa9AH_SsR17TU=.hash
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\dUqmoY2LoHjPmRvsQw9efELrbQFizX787R7QKImDcXc=.hash
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\b1wu6k_2eJSLn2oPlhbrp7l7-iV2BGG_7aB50PNj4_8=.hash
