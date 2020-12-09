@@ -14,6 +14,8 @@ namespace DogKeepers.Server.Entities
 
         public string Picture { get; set; }
 
+        public byte[] PictureFile { get; set; }
+
         public int RaceId { get; set; }
 
         public int SizeId { get; set; }

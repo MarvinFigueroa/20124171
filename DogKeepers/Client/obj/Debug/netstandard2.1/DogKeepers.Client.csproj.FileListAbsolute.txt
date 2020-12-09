@@ -662,7 +662,6 @@ C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\m7Q_cF5-ji3OMfdGlCuE8pQ-iM_kxNHLq-IEWVvIaOg=.hash
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=.hash
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=.hash
-C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\6L_xDQagi1BTj6w4v7SBMxPl6PdIL_mevSQcxLpaiwo=.hash
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\FJ_rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=.hash
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\oK1Bjv95fH_hSbogUkJE_xDAI203kJG6lL6Sm-NuPWg=.hash
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\y-FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK_gtKc=.hash
@@ -677,7 +676,6 @@ C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=.hash
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\zOBZ_bv44N0h0EaRYZhGqngeYcBonLjpA36C_TrA-lA=.hash
-C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\agrJuLE09zZDgtLNPxvRg7jOnmUT2eYJgYkt4r1YtgI=.hash
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
@@ -825,6 +823,8 @@ C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\Razor\Pages\Dog\Dog.razor.g.cs
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\RazorDeclaration\Components\SectionPage\SectionPage.razor.g.cs
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\Razor\Components\SectionPage\SectionPage.razor.g.cs
-C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\ZXLhrR-T2fqkpRAj3sLsdudOeAKdAAXa9AH_SsR17TU=.hash
-C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\dUqmoY2LoHjPmRvsQw9efELrbQFizX787R7QKImDcXc=.hash
-C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\b1wu6k_2eJSLn2oPlhbrp7l7-iV2BGG_7aB50PNj4_8=.hash
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\3rRy4LySHKRil0zO9tANhBZLs0W8Lak7U8tttwSas70=.hash
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\z44_Z3NuKwbQERTsUwhjLWCqE-XtoMfu1SFEykPJeeg=.hash
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\TYOrwA2dOq2l6mgNi7bGOdhIhayJyq-fm2yX_EGX48c=.hash
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\p0S-OXk6gNP2PN9ZIKjSqmnyTvR18X3hA5Bbu-Quobg=.hash
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\obj\Debug\netstandard2.1\integrity\mcmiBHZO3YjoK_qFYo2mmppHtt4IRXZ9Ue2xifS6vd8=.hash

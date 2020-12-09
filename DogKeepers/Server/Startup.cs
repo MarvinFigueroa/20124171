@@ -11,6 +11,8 @@ using DogKeepers.Server.Services;
 using DogKeepers.Server.Interfaces.Repositories;
 using DogKeepers.Server.Repositories;
 using DogKeepers.Server.Options;
+using DogKeepers.Server.Utils;
+using DogKeepers.Server.Interfaces.Utils;
 
 namespace DogKeepers.Server
 {
@@ -36,6 +38,7 @@ namespace DogKeepers.Server
             services.AddScoped<ISizeRepository, SizeRepository>();
             services.AddScoped<IRaceService, RaceService>();
             services.AddScoped<IRaceRepository, RaceRepository>();
+            services.AddSingleton<IFileUtil, FileUtil>();
             services.Configure<ConnectionStringsOptions>(
                 options =>
                 Configuration.GetSection("ConnectionStrings").Bind(options)
@@ -43,6 +46,11 @@ namespace DogKeepers.Server
             services.Configure<PaginationOption>(
                 options =>
                 Configuration.GetSection("Pagination").Bind(options)
+            );
+
+            services.Configure<PathOption>(
+                options =>
+                Configuration.GetSection("Paths").Bind(options)
             );
         }
 
