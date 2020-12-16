@@ -79,6 +79,72 @@
         }
       },
       {
+        "HashCode": -706939994,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.SingIn.SingInDialog",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SingInDialog"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.SingIn.SingInDialog"
+        }
+      },
+      {
+        "HashCode": -1160104060,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.SingIn.SingInDialog",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Components.SingIn.SingInDialog"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.SingIn.SingInDialog",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -864403901,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.SingIn.SingInButton",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SingInButton"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.SingIn.SingInButton"
+        }
+      },
+      {
+        "HashCode": -312326399,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.SingIn.SingInButton",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Components.SingIn.SingInButton"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.SingIn.SingInButton",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1015307293,
         "Kind": "Components.Component",
         "Name": "DogKeepers.Client.Components.DogCard.DogCard",
@@ -409,6 +475,39 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "DogKeepers.Client.Components.SectionPage.SectionPage.ChildContent",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1353073272,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.TopBar.TopBar",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TopBar"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.TopBar.TopBar"
+        }
+      },
+      {
+        "HashCode": 818015537,
+        "Kind": "Components.Component",
+        "Name": "DogKeepers.Client.Components.TopBar.TopBar",
+        "AssemblyName": "DogKeepers.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DogKeepers.Client.Components.TopBar.TopBar"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DogKeepers.Client.Components.TopBar.TopBar",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -49668,8 +49767,18 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\Components\\SingIn\\SingInDialog.razor",
+      "TargetPath": "Components\\SingIn\\SingInDialog.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\Pages\\Cares\\Cares.razor",
       "TargetPath": "Pages\\Cares\\Cares.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\Components\\TopBar\\TopBar.razor",
+      "TargetPath": "Components\\TopBar\\TopBar.razor",
       "FileKind": "component"
     },
     {
@@ -49690,6 +49799,11 @@
     {
       "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\Components\\Loading\\Loading.razor",
       "TargetPath": "Components\\Loading\\Loading.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\Components\\SingIn\\SingInButton.razor",
+      "TargetPath": "Components\\SingIn\\SingInButton.razor",
       "FileKind": "component"
     }
   ],

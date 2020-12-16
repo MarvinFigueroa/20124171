@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Radzen;
 
 namespace DogKeepers.Client
 {
@@ -18,8 +19,15 @@ namespace DogKeepers.Client
             builder.RootComponents.Add<App>("app");
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            ConfigureServices(builder.Services, builder.Configuration);
 
             await builder.Build().RunAsync();
         }
+        public static void ConfigureServices(IServiceCollection services, IConfiguration configuration){
+
+            services.AddScoped<DialogService>();
+
+        }
     }
+
 }

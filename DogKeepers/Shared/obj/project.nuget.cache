@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "M249aubQbXK46zRAZw9ZVpPdKUqpE1Fwm0M3E+KhE0jldgE7gfhJR30EqXnXmPcZklj/q/AKGHSoBezd9ZjJLw==",
+  "dgSpecHash": "fmA0NViXlBHDnVlcljc2SfJa216zizJfEtt+YAAZse1sgKIHhdFCmI7YA4WVfHooqp4rux6M9rpbSTPn1Tg7jg==",
   "success": true,
   "projectFilePath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Shared\\DogKeepers.Shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

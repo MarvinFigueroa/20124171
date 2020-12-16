@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Server\\DogKeepers.Server.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\server\\DogKeepers.Server.csproj": {}
   },
   "projects": {
     "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Client\\DogKeepers.Client.csproj": {
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Server\\DogKeepers.Server.csproj": {
+    "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\server\\DogKeepers.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Server\\DogKeepers.Server.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\server\\DogKeepers.Server.csproj",
         "projectName": "DogKeepers.Server",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Server\\DogKeepers.Server.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\server\\DogKeepers.Server.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Server\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -193,6 +193,12 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -13,6 +13,7 @@ using DogKeepers.Server.Repositories;
 using DogKeepers.Server.Options;
 using DogKeepers.Server.Utils;
 using DogKeepers.Server.Interfaces.Utils;
+using DogKeepers.Server.Filters;
 
 namespace DogKeepers.Server
 {
@@ -29,20 +30,30 @@ namespace DogKeepers.Server
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            services.AddControllersWithViews(options => {options.Filters.Add<GlobalExceptionFilter>();});
             services.AddRazorPages();
+
             services.AddScoped<IDogService, DogService>();
             services.AddScoped<IDogRepository, DogRepository>();
-            services.AddSingleton<IBaseRepository, BaseRepository>();
+
             services.AddScoped<ISizeService, SizeService>();
             services.AddScoped<ISizeRepository, SizeRepository>();
+
             services.AddScoped<IRaceService, RaceService>();
             services.AddScoped<IRaceRepository, RaceRepository>();
+
+            services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IUserRepository, UserRepository>();
+
+            services.AddSingleton<IBaseRepository, BaseRepository>();
+
             services.AddSingleton<IFileUtil, FileUtil>();
+
             services.Configure<ConnectionStringsOptions>(
                 options =>
                 Configuration.GetSection("ConnectionStrings").Bind(options)
             );
+
             services.Configure<PaginationOption>(
                 options =>
                 Configuration.GetSection("Pagination").Bind(options)

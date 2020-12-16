@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bsbKVdB5IyL67boaYOyeB0JaqDmaYlycnNqObHPt4bW8lZJCaDrIzQV8G8OLD78ngZeGCBUnrd7hQDPS4lS9sw==",
+  "dgSpecHash": "A6ddf6pE4SbWTTRAddX4V4N4xfTq+f913pl9MHjJma7sWFBAhB2z6OJHhy/ZWs9pLL4aAxd5Tktb4lB7jDaCHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\Server\\DogKeepers.Server.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\DogKeepers\\server\\DogKeepers.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
@@ -53,6 +53,7 @@
     "C:\\Users\\DELL\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.collections.concurrent\\4.0.12\\system.collections.concurrent.4.0.12.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.1\\system.configuration.configurationmanager.4.4.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.console\\4.0.0\\system.console.4.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",
