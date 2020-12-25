@@ -104,6 +104,13 @@ using DogKeepers.Client.Components.SectionPage;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 14 "C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Client\_Imports.razor"
+using Microsoft.AspNetCore.Components.Authorization;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/cares")]
     public partial class Cares : Microsoft.AspNetCore.Components.ComponentBase
     {

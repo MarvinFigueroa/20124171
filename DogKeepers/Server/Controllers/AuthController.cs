@@ -1,5 +1,7 @@
 using System.Threading.Tasks;
 using DogKeepers.Server.Interfaces.Services;
+using DogKeepers.Shared.ApiResponses;
+using DogKeepers.Shared.DTOs;
 using DogKeepers.Shared.QueryFilters;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,7 +22,19 @@ namespace DogKeepers.Server.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(SingInQueryFilter model){
             var response = await authService.Authenticate(model);
-            return Ok(response);
+            var apiResponse = new ApiResponse<JwtDto>(
+                new JwtDto(){
+                    Token = response.Token,
+                    ExpirationDate = response.ExpirationDate,
+                    User = new UserDto(){
+                        Id = response.User.Id,
+                        Email = response.User.Email,
+                        Name = response.User.Name
+                    }
+                },
+                null
+            );
+            return Ok(apiResponse);
         }
     }
 }

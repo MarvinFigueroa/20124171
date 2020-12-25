@@ -47,6 +47,7 @@ namespace DogKeepers.Server
 
             services.AddSingleton<IBaseRepository, BaseRepository>();
 
+            services.AddScoped<IJwtUtil, JwtUtil>();
             services.AddSingleton<IFileUtil, FileUtil>();
 
             services.Configure<ConnectionStringsOptions>(

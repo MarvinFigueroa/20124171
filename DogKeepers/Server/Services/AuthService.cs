@@ -3,6 +3,7 @@ using DogKeepers.Server.Entities;
 using DogKeepers.Server.Exceptions;
 using DogKeepers.Server.Interfaces.Repositories;
 using DogKeepers.Server.Interfaces.Services;
+using DogKeepers.Server.Interfaces.Utils;
 using DogKeepers.Shared.QueryFilters;
 
 namespace DogKeepers.Server.Services
@@ -11,13 +12,15 @@ namespace DogKeepers.Server.Services
     {
 
         private readonly IUserRepository userRepository;
+        private readonly IJwtUtil jwtUtil;
 
-        public AuthService(IUserRepository userRepository)
+        public AuthService(IUserRepository userRepository, IJwtUtil jwtUtil)
         {
+            this.jwtUtil = jwtUtil;
             this.userRepository = userRepository;
         }
 
-        public async Task<User> Authenticate(SingInQueryFilter user)
+        public async Task<Jwt> Authenticate(SingInQueryFilter user)
         {
             var userData = await userRepository.GetByEmailPassword(user);
 
@@ -26,7 +29,21 @@ namespace DogKeepers.Server.Services
                 throw new BusinessException("Los datos de acceso son incorrectos");
             }
 
-            return userData;
+            var data = new{
+                Id = userData.Id,
+                Name = userData.Name
+            };
+
+            var token = jwtUtil.Generate(data);
+
+            if (token == null)
+            {
+                throw new BusinessException("No se pudo iniciar sesion, intente nuevamente");
+            }else{
+                token.User = userData;
+            }
+
+            return token;
         }
     }
 }

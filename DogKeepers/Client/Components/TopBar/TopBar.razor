@@ -1,7 +1,16 @@
 @using DogKeepers.Client.Components.SingIn
 <div class="top-row px-4" style="z-index: 1;">
-    <div class="btn-group" role="group">
-        <SingInButton/>
-        <button type="button" class="btn btn-secondary">Registrarse</button>
-    </div>
+    <AuthorizeView>
+        <Authorized>
+            <div>
+                Hola @context.User.Identity.Name
+            </div>
+        </Authorized>
+        <NotAuthorized>
+            <div class="btn-group" role="group">
+                <SingInButton/>
+                <button type="button" class="btn btn-secondary">Registrarse</button>
+            </div>
+        </NotAuthorized>
+    </AuthorizeView>
 </div>

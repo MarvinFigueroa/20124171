@@ -462,3 +462,8 @@ C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Server\obj\Debug\netcoreapp3.1\
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Server\obj\Debug\netcoreapp3.1\DogKeepers.Server.dll
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Server\obj\Debug\netcoreapp3.1\DogKeepers.Server.pdb
 C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\Server\obj\Debug\netcoreapp3.1\DogKeepers.Server.genruntimeconfig.cache
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\server\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\DELL\Desktop\prueba\20124171\DogKeepers\server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Authorization.dll
