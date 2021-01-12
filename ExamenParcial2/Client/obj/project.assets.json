@@ -1658,11 +1658,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\ExamenParcial2\\Client\\ExamenParcial2.Client.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\prueba\\fix\\20124171\\ExamenParcial2\\Client\\ExamenParcial2.Client.csproj",
       "projectName": "ExamenParcial2.Client",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\ExamenParcial2\\Client\\ExamenParcial2.Client.csproj",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\fix\\20124171\\ExamenParcial2\\Client\\ExamenParcial2.Client.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\ExamenParcial2\\Client\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\prueba\\fix\\20124171\\ExamenParcial2\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1678,8 +1678,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\ExamenParcial2\\Shared\\ExamenParcial2.Shared.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\ExamenParcial2\\Shared\\ExamenParcial2.Shared.csproj"
+            "C:\\Users\\DELL\\Desktop\\prueba\\fix\\20124171\\ExamenParcial2\\Shared\\ExamenParcial2.Shared.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\fix\\20124171\\ExamenParcial2\\Shared\\ExamenParcial2.Shared.csproj"
             }
           }
         }

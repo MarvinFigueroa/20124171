@@ -6,33 +6,42 @@
 
 <hr style="width:100%;text-align:left;margin-left:0">
 
-
-<p>Current count: @currentCount</p>
+<Loading
+    IsLoading = "@IsLoading"
+>
+    <div class="container-fluid">
+        <div class="row p-2 mb-4">
+            <div class="col-12">
+                @foreach (var Dato in @Datos)
+                {
+                    <h2>
+                        @Dato.quote
+                    </h2>
+                    <span class="text-muted">
+                        — @Dato.author
+                    </span>
+                }
+            </div>
+        </div>
+    </div>
+</Loading>
 
 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
     <div class="btn-group mr-2" role="group" aria-label="First group">
-        <button class="btn btn-primary" disabled="@disableDecreaseButton" @onclick="DecreaseCount">Previous</button>
+        <button class="btn btn-primary" disabled="@disableDecreaseButton" @onclick="@GetPrevious">Previous</button>
     </div>
     <div class="btn-group mr-2" role="group" aria-label="Second group">
-        <button class="btn btn-primary" @onclick="IncrementCount">Next</button>
+        <button class="btn btn-primary" disabled="@disableIncrementButton" @onclick="@GetQuote">Next</button>
     </div>
 </div>
 
 @code {
-    private int currentCount = 0;
+    public int currentCount = 1;
 
-    private bool disableDecreaseButton => (currentCount == 0);
+    private bool disableDecreaseButton => (currentCount == 1);
 
-    private void IncrementCount()
-    {
-        currentCount++;
-    }
+    private bool disableIncrementButton => (currentCount == 30);
 
-    private void DecreaseCount()
-    {
-        if (currentCount > 0)
-        {
-            currentCount--;
-        }
-    }
 }
+
+

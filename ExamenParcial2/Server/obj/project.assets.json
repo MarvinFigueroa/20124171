@@ -962,11 +962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\ExamenParcial2\\Server\\ExamenParcial2.Server.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\prueba\\fix\\20124171\\ExamenParcial2\\server\\ExamenParcial2.Server.csproj",
       "projectName": "ExamenParcial2.Server",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\ExamenParcial2\\Server\\ExamenParcial2.Server.csproj",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\fix\\20124171\\ExamenParcial2\\server\\ExamenParcial2.Server.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\ExamenParcial2\\Server\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\prueba\\fix\\20124171\\ExamenParcial2\\server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -982,11 +982,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\ExamenParcial2\\Client\\ExamenParcial2.Client.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\ExamenParcial2\\Client\\ExamenParcial2.Client.csproj"
+            "C:\\Users\\DELL\\Desktop\\prueba\\fix\\20124171\\ExamenParcial2\\Client\\ExamenParcial2.Client.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\fix\\20124171\\ExamenParcial2\\Client\\ExamenParcial2.Client.csproj"
             },
-            "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\ExamenParcial2\\Shared\\ExamenParcial2.Shared.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\ExamenParcial2\\Shared\\ExamenParcial2.Shared.csproj"
+            "C:\\Users\\DELL\\Desktop\\prueba\\fix\\20124171\\ExamenParcial2\\Shared\\ExamenParcial2.Shared.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\prueba\\fix\\20124171\\ExamenParcial2\\Shared\\ExamenParcial2.Shared.csproj"
             }
           }
         }

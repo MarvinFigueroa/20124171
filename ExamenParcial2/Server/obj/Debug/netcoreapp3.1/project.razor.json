@@ -2846,35 +2846,35 @@
         }
       },
       {
-        "HashCode": -699457919,
+        "HashCode": 1280066907,
         "Kind": "Components.Component",
-        "Name": "ExamenParcial2.Client.Pages.BreakingBad",
+        "Name": "ExamenParcial2.Client.App",
         "AssemblyName": "ExamenParcial2.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BreakingBad"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ExamenParcial2.Client.Pages.BreakingBad"
+          "Common.TypeName": "ExamenParcial2.Client.App"
         }
       },
       {
-        "HashCode": -1863428526,
+        "HashCode": -1694604891,
         "Kind": "Components.Component",
-        "Name": "ExamenParcial2.Client.Pages.BreakingBad",
+        "Name": "ExamenParcial2.Client.App",
         "AssemblyName": "ExamenParcial2.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ExamenParcial2.Client.Pages.BreakingBad"
+            "TagName": "ExamenParcial2.Client.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ExamenParcial2.Client.Pages.BreakingBad",
+          "Common.TypeName": "ExamenParcial2.Client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -2912,39 +2912,6 @@
         }
       },
       {
-        "HashCode": 1489420765,
-        "Kind": "Components.Component",
-        "Name": "ExamenParcial2.Client.Pages.FetchData",
-        "AssemblyName": "ExamenParcial2.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ExamenParcial2.Client.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -195742232,
-        "Kind": "Components.Component",
-        "Name": "ExamenParcial2.Client.Pages.FetchData",
-        "AssemblyName": "ExamenParcial2.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ExamenParcial2.Client.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ExamenParcial2.Client.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -525211927,
         "Kind": "Components.Component",
         "Name": "ExamenParcial2.Client.Pages.Index",
@@ -2978,35 +2945,176 @@
         }
       },
       {
-        "HashCode": 1280066907,
+        "HashCode": 1489420765,
         "Kind": "Components.Component",
-        "Name": "ExamenParcial2.Client.App",
+        "Name": "ExamenParcial2.Client.Pages.FetchData",
         "AssemblyName": "ExamenParcial2.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "FetchData"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ExamenParcial2.Client.App"
+          "Common.TypeName": "ExamenParcial2.Client.Pages.FetchData"
         }
       },
       {
-        "HashCode": -1694604891,
+        "HashCode": -195742232,
         "Kind": "Components.Component",
-        "Name": "ExamenParcial2.Client.App",
+        "Name": "ExamenParcial2.Client.Pages.FetchData",
         "AssemblyName": "ExamenParcial2.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ExamenParcial2.Client.App"
+            "TagName": "ExamenParcial2.Client.Pages.FetchData"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ExamenParcial2.Client.App",
+          "Common.TypeName": "ExamenParcial2.Client.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -38583423,
+        "Kind": "Components.Component",
+        "Name": "ExamenParcial2.Client.Pages.Loading",
+        "AssemblyName": "ExamenParcial2.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Loading"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "IsLoading",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "IsLoading"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ExamenParcial2.Client.Pages.Loading"
+        }
+      },
+      {
+        "HashCode": 693335397,
+        "Kind": "Components.Component",
+        "Name": "ExamenParcial2.Client.Pages.Loading",
+        "AssemblyName": "ExamenParcial2.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ExamenParcial2.Client.Pages.Loading"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "IsLoading",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "IsLoading"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ExamenParcial2.Client.Pages.Loading",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 744761900,
+        "Kind": "Components.ChildContent",
+        "Name": "ExamenParcial2.Client.Pages.Loading.ChildContent",
+        "AssemblyName": "ExamenParcial2.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "Loading"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ExamenParcial2.Client.Pages.Loading.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -1575846085,
+        "Kind": "Components.ChildContent",
+        "Name": "ExamenParcial2.Client.Pages.Loading.ChildContent",
+        "AssemblyName": "ExamenParcial2.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "ExamenParcial2.Client.Pages.Loading"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ExamenParcial2.Client.Pages.Loading.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -699457919,
+        "Kind": "Components.Component",
+        "Name": "ExamenParcial2.Client.Pages.BreakingBad",
+        "AssemblyName": "ExamenParcial2.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BreakingBad"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ExamenParcial2.Client.Pages.BreakingBad"
+        }
+      },
+      {
+        "HashCode": -1863428526,
+        "Kind": "Components.Component",
+        "Name": "ExamenParcial2.Client.Pages.BreakingBad",
+        "AssemblyName": "ExamenParcial2.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ExamenParcial2.Client.Pages.BreakingBad"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ExamenParcial2.Client.Pages.BreakingBad",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

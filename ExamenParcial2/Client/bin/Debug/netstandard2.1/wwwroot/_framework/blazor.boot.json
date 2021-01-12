@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "ExamenParcial2.Client.dll": "sha256-qisndRTqpe9GdGdd0\/YnfVE7nhCwpyA501HSbC38wAM=",
+      "ExamenParcial2.Client.dll": "sha256-dgbhhx\/d9cfFP1\/KMPTNNUHvTwFPG11vb1pfFv83cwM=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -61,7 +61,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "ExamenParcial2.Client.pdb": "sha256-NJAkKgkb9f1rC8ddvktO99oWYOgz+boRgB7tFMva4Wc=",
+      "ExamenParcial2.Client.pdb": "sha256-eqUTTZWkDhPWBWs5y5oaIA2gUuWh2Rjv2b148kvPx0s=",
       "ExamenParcial2.Shared.pdb": "sha256-Oz26B0c4jtBZM36vg23XHPTMsq+UbHfADhA9Y1xsZOk="
     },
     "runtime": {

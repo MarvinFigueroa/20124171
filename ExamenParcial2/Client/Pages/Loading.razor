@@ -1,0 +1,17 @@
+@if (IsLoading)
+{
+    <div class="loading row">
+        <div class="col-12 text-center">
+            <div class="alert alert-primary" role="alert">
+                Loading..
+            </div>
+        </div>
+    </div>
+}else{
+    @ChildContent
+}
+
+@code{
+    [Parameter] public bool IsLoading { get; set; }
+    [Parameter] public RenderFragment ChildContent { get; set; }
+}

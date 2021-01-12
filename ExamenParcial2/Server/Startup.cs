@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
+using System.Net.Http;
 
 namespace ExamenParcial2.Server
 {
@@ -25,6 +26,13 @@ namespace ExamenParcial2.Server
 
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddSingleton<HttpClient>();
+            services.AddCors(setup => {
+                setup.AddPolicy("AllowBlazorWasm", policy => 
+                {
+                    policy.WithOrigins(new string[] {"https://breakingbadapi.com"}).AllowAnyMethod().AllowAnyHeader().AllowCredentials();
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +55,8 @@ namespace ExamenParcial2.Server
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseCors("AllowBlazorWasm");
 
             app.UseEndpoints(endpoints =>
             {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iQii05EhbsQrttwwQOZNCiFIc2Csy4ZFMu4qGL3Nr4k2TVBYaTPn5NsCOct5yEbwyWl4YI4iNa1j81Poj8ex6A==",
+  "dgSpecHash": "VVA4ujMFP7WvVzBd89ExcTaP0dGaChkLbCup9fouX8g+l1nCCAnC60ppUsFLBX1gv9u6TTqiCtqvLMsUb5un6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Desktop\\prueba\\20124171\\ExamenParcial2\\server\\ExamenParcial2.Server.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Desktop\\prueba\\fix\\20124171\\ExamenParcial2\\server\\ExamenParcial2.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",
